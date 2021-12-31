@@ -5,7 +5,7 @@ using JSon;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-[assembly: AssemblyTitle("Machine Translation")] // ENTER MOD TITLE
+[assembly: AssemblyTitle("Japanese Translation")] // ENTER MOD TITLE
 
 
 public class ModEntryPoint : MonoBehaviour, ILocalizedText // ModEntryPoint - RESERVED LOOKUP NAME
@@ -32,8 +32,6 @@ public class ModEntryPoint : MonoBehaviour, ILocalizedText // ModEntryPoint - RE
 
         {
             SettingLanguage.AvaibleLanguage.Add("ja");
-            SettingLanguage.AvaibleLanguage.Add("ch");
-            SettingLanguage.AvaibleLanguage.Add("fr");
         }
 
         /* out of date
